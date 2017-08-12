@@ -1,0 +1,24 @@
+{
+  "name": "redux-todos-server",
+  "version": "1.0.0",
+  "description": "todo rest api using express and sqlite, meant to be run with andrewmacheret/redux-todos-client",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-joi-validation": "^0.1.0",
+    "express-request-id": "^1.4.0",
+    "joi": "^10.6.0",
+    "sqlite": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "author": "Andrew Macheret <andrew.macheret@gmail.com>",
+  "repository": "git@github.com:andrewmacheret/redux-todos-server.git",
+  "license": "MIT"
+}
